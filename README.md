@@ -1,7 +1,12 @@
 # [SvelteKit Tutorial for Beginners](https://youtube.com/playlist?list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua)
 
-- [ ] [01 - Introduction](https://youtu.be/UOMLvxfrTCA)
-- [ ] [02 - Hello World](<https://youtu.be/Hyss()09pgYzVrhc>)
+- [x] [01 - Introduction](https://youtu.be/UOMLvxfrTCA)
+- [x] [02 - Hello World](<https://youtu.be/Hyss()09pgYzVrhc>)
+  - create project `npm create svelte@latest hello-world`
+  - cd into `./hello-world/`
+  - run `npm install`
+  - start development server: `npm run dev -- --open`
+  - edit `./src/routes/+page.svelte`
 - [ ] [03 - Project Structure](https://youtu.be/iqm7Sv9VykI)
 - [ ] [04 - Routing](https://youtu.be/IFZM2CGQ4cU)
 - [ ] [05 - Nested Routes](https://youtu.be/1UiDq3RAD8c)
