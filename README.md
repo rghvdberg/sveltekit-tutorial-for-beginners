@@ -7,8 +7,8 @@
   - run `npm install`
   - start development server: `npm run dev -- --open`
   - edit `./src/routes/+page.svelte`
-- [ ] [03 - Project Structure](https://youtu.be/iqm7Sv9VykI)
-- [ ] [04 - Routing](https://youtu.be/IFZM2CGQ4cU)
+- [x] [03 - Project Structure](https://youtu.be/iqm7Sv9VykI)
+- [x] [04 - Routing](https://youtu.be/IFZM2CGQ4cU)
 - [ ] [05 - Nested Routes](https://youtu.be/1UiDq3RAD8c)
 - [ ] [06 - Dynamic Routes](https://youtu.be/2ZvSj5kktjA)
 - [ ] [07 - Nested Dynamic Routes](https://youtu.be/Vo4ZML4JOUI)
