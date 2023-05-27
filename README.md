@@ -12,7 +12,10 @@
   - create dir in /src/routes/ to create route
     - `src/routes/about/` creates route to http://localhost:5173/about
     - add `+page.svelte` for the routes content
-- [ ] [05 - Nested Routes](https://youtu.be/1UiDq3RAD8c)
+- [x] [05 - Nested Routes](https://youtu.be/1UiDq3RAD8c)
+  - create nested dirs (with `+page.svelte`) to create nested routes
+    - `src/blog/` => http://localhost:5173/blog
+    - `src/blog/first/` => http://localhost:5173/blog/first
 - [ ] [06 - Dynamic Routes](https://youtu.be/2ZvSj5kktjA)
 - [ ] [07 - Nested Dynamic Routes](https://youtu.be/Vo4ZML4JOUI)
 - [ ] [08 - Catch All Routes](https://youtu.be/hREagSs5UI0)
