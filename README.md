@@ -9,20 +9,22 @@
   - edit `./src/routes/+page.svelte`
 - [x] [03 - Project Structure](https://youtu.be/iqm7Sv9VykI)
 - [x] [04 - Routing](https://youtu.be/IFZM2CGQ4cU)
-  - create dir in /src/routes/ to create route
-    - `src/routes/about/` creates route to http://localhost:5173/about
+  - create dir in </src/routes/ to create route>
+    - `src/routes/about/` creates route to <http://localhost:5173/about>
     - add `+page.svelte` for the routes content
 - [x] [05 - Nested Routes](https://youtu.be/1UiDq3RAD8c)
   - create nested dirs (with `+page.svelte`) to create nested routes
-    - `src/blog/` => http://localhost:5173/blog
-    - `src/blog/first/` => http://localhost:5173/blog/first
+    - `src/blog/` => <http://localhost:5173/blog>
+    - `src/blog/first/` => <http://localhost:5173/blog/first>
 - [x] [06 - Dynamic Routes](https://youtu.be/2ZvSj5kktjA)
   - dynamic route folders are in square brackets
     - `[productId]`
   - import `page` module from `$app/stores` to get the page data.
 - [x] [07 - Nested Dynamic Routes](https://youtu.be/Vo4ZML4JOUI)
-  - put dynamic route in dynamic route folder ¯\_(ツ)\_/¯
-- [ ] [08 - Catch All Routes](https://youtu.be/hREagSs5UI0)
+  - put dynamic route in dynamic route folder ¯\\\_(ツ)\_/¯
+- [x] [08 - Catch All Routes](https://youtu.be/hREagSs5UI0)
+  - `[...slug]`
+  - `slugArr = $page.params.slug.split("/");`
 - [ ] [09 - Optional Parameters](https://youtu.be/cgsT_WCLWEo)
 - [ ] [10 - Route Navigation](https://youtu.be/6GImQ9i6hRc)
 - [ ] [11 - Navigating Programmatically](https://youtu.be/GjAViOJeaEo)
