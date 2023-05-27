@@ -19,8 +19,9 @@
 - [x] [06 - Dynamic Routes](https://youtu.be/2ZvSj5kktjA)
   - dynamic route folders are in square brackets
     - `[productId]`
-  - import `page` mpodule from `$app/stores` to get the page data.
-- [ ] [07 - Nested Dynamic Routes](https://youtu.be/Vo4ZML4JOUI)
+  - import `page` module from `$app/stores` to get the page data.
+- [x] [07 - Nested Dynamic Routes](https://youtu.be/Vo4ZML4JOUI)
+  - put dynamic route in dynamic route folder ¯\_(ツ)\_/¯
 - [ ] [08 - Catch All Routes](https://youtu.be/hREagSs5UI0)
 - [ ] [09 - Optional Parameters](https://youtu.be/cgsT_WCLWEo)
 - [ ] [10 - Route Navigation](https://youtu.be/6GImQ9i6hRc)
