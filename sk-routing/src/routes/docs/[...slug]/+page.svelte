@@ -1,6 +1,5 @@
 <script>
   import { page } from "$app/stores";
-  console.log($page.params.slug);
   const slugArr = $page.params.slug.split("/");
 </script>
 
