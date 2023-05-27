@@ -16,7 +16,10 @@
   - create nested dirs (with `+page.svelte`) to create nested routes
     - `src/blog/` => http://localhost:5173/blog
     - `src/blog/first/` => http://localhost:5173/blog/first
-- [ ] [06 - Dynamic Routes](https://youtu.be/2ZvSj5kktjA)
+- [x] [06 - Dynamic Routes](https://youtu.be/2ZvSj5kktjA)
+  - dynamic route folders are in square brackets
+    - `[productId]`
+  - import `page` mpodule from `$app/stores` to get the page data.
 - [ ] [07 - Nested Dynamic Routes](https://youtu.be/Vo4ZML4JOUI)
 - [ ] [08 - Catch All Routes](https://youtu.be/hREagSs5UI0)
 - [ ] [09 - Optional Parameters](https://youtu.be/cgsT_WCLWEo)
