@@ -30,7 +30,8 @@
     - `const { lang = "en" } = $page.params` makes `en` default
 - [x] [10 - Route Navigation](https://youtu.be/6GImQ9i6hRc)
   - plain ol' `<a>` tags (\* ^ ω ^)
-- [ ] [11 - Navigating Programmatically](https://youtu.be/GjAViOJeaEo)
+- [x] [11 - Navigating Programmatically](https://youtu.be/GjAViOJeaEo)
+  - use `goto` from `$app/navigation`
 - [ ] [12 - Route Matchers](https://youtu.be/TNF2umSjulw)
 - [ ] [13 - Route Layout](https://youtu.be/C_ZUTipbXkgV)
 - [ ] [14 - Layout Groups](https://youtu.be/GMxnG82JHlE)
