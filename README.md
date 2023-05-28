@@ -28,7 +28,8 @@
 - [x] [09 - Optional Parameters](https://youtu.be/cgsT_WCLWEo)
   - `[[lang]]`
     - `const { lang = "en" } = $page.params` makes `en` default
-- [ ] [10 - Route Navigation](https://youtu.be/6GImQ9i6hRc)
+- [x] [10 - Route Navigation](https://youtu.be/6GImQ9i6hRc)
+  - plain ol' `<a>` tags (\* ^ ω ^)
 - [ ] [11 - Navigating Programmatically](https://youtu.be/GjAViOJeaEo)
 - [ ] [12 - Route Matchers](https://youtu.be/TNF2umSjulw)
 - [ ] [13 - Route Layout](https://youtu.be/C_ZUTipbXkgV)
