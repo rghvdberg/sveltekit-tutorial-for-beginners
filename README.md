@@ -32,7 +32,13 @@
   - plain ol' `<a>` tags (\* ^ ω ^)
 - [x] [11 - Navigating Programmatically](https://youtu.be/GjAViOJeaEo)
   - use `goto` from `$app/navigation`
-- [ ] [12 - Route Matchers](https://youtu.be/TNF2umSjulw)
+- [x] [12 - Route Matchers](https://youtu.be/TNF2umSjulw)
+  - add `src/params/integer.js`
+    - <https://kit.svelte.dev/docs/advanced-routing#matchin>
+      > Each module in the params directory corresponds to a matcher, with the
+      > exception of _.test.js and _.spec.js files which may be used to unit test
+      > your matchers.
+  - change `[productId]` to `[productId=integer]`
 - [ ] [13 - Route Layout](https://youtu.be/C_ZUTipbXkgV)
 - [ ] [14 - Layout Groups](https://youtu.be/GMxnG82JHlE)
 - [ ] [15 - Breaking Out of Layouts](https://youtu.be/QoT_OxlFHUw)
