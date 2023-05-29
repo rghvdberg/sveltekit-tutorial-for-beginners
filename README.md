@@ -62,7 +62,8 @@
     >
     > If components and modules are needed by multiple routes, it's a good idea
     > to put them in `$lib`.
-- [ ] [17 - API Routes](https://youtu.be/eW8uTGspyV8)
+- [x] [17 - API Routes](https://youtu.be/eW8uTGspyV8)
+  - export `GET` function in `+server.js`
 - [ ] [18 - API Get Request](https://youtu.be/U375cmoSIDU)
 - [ ] [19 - API Post Request](https://youtu.be/3R4rSyMCiC0)
 - [ ] [20 - Dynamic API Routes](https://youtu.be/Q5b_Gy90G4c)
