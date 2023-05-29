@@ -3,13 +3,13 @@
 - [x] [01 - Introduction](https://youtu.be/UOMLvxfrTCA)
 - [x] [02 - Hello World](<https://youtu.be/Hyss()09pgYzVrhc>)
   - create project `npm create svelte@latest hello-world`
-  - cd into `./hello-world/`
+  - `cd` into `./hello-world/`
   - run `npm install`
   - start development server: `npm run dev -- --open`
   - edit `./src/routes/+page.svelte`
 - [x] [03 - Project Structure](https://youtu.be/iqm7Sv9VykI)
 - [x] [04 - Routing](https://youtu.be/IFZM2CGQ4cU)
-  - create dir in </src/routes/ to create route>
+  - create dir in `/src/routes/` to create route
     - `src/routes/about/` creates route to <http://localhost:5173/about>
     - add `+page.svelte` for the routes content
 - [x] [05 - Nested Routes](https://youtu.be/1UiDq3RAD8c)
@@ -36,11 +36,20 @@
   - add `src/params/integer.js`
     - <https://kit.svelte.dev/docs/advanced-routing#matchin>
       > Each module in the params directory corresponds to a matcher, with the
-      > exception of _.test.js and _.spec.js files which may be used to unit test
-      > your matchers.
+      > exception of `_.test.js` and `_.spec.js` files which may be used to
+      > unit test your matchers.
   - change `[productId]` to `[productId=integer]`
-- [ ] [13 - Route Layout](https://youtu.be/C_ZUTipbXkgV)
-- [ ] [14 - Layout Groups](https://youtu.be/GMxnG82JHlE)
+- [x] [13 - Route Layout](https://youtu.be/C_ZUTipbXkgV)
+  - <https://kit.svelte.dev/docs/routing#layout>
+  - > To create a layout that applies to every page, make a file called
+    > `src/routes/+layout.svelte`.
+  - `+page.svelte` files are rendered in the `<slot/>` of the layout page.
+  - Layouts can be nested.
+  - By default, each layout inherits the layout above it.
+- [x] [14 - Layout Groups](https://youtu.be/GMxnG82JHlE)
+  - <https://kit.svelte.dev/docs/advanced-routing#advanced-layouts-group>
+  - We can group routes with a directory whose name is wrapped in
+    parentheses — these do not affect the URL pathname of the routes inside them.
 - [ ] [15 - Breaking Out of Layouts](https://youtu.be/QoT_OxlFHUw)
 - [ ] [16 - Other Files](https://youtu.be/6CawFc-OvV4)
 - [ ] [17 - API Routes](https://youtu.be/eW8uTGspyV8)
