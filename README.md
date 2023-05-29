@@ -50,7 +50,10 @@
   - <https://kit.svelte.dev/docs/advanced-routing#advanced-layouts-group>
   - We can group routes with a directory whose name is wrapped in
     parentheses — these do not affect the URL pathname of the routes inside them.
-- [ ] [15 - Breaking Out of Layouts](https://youtu.be/QoT_OxlFHUw)
+- [x] [15 - Breaking Out of Layouts](https://youtu.be/QoT_OxlFHUw)
+  - <https://kit.svelte.dev/docs/advanced-routingadvanced-layouts-breaking-out-of-layouts>
+  - We can reset to a layouts by appending @ followed by the segment name.
+  - `(auth)/passwords/forgot/+page#@(auth).svelte` uses layout from (auth) group
 - [ ] [16 - Other Files](https://youtu.be/6CawFc-OvV4)
 - [ ] [17 - API Routes](https://youtu.be/eW8uTGspyV8)
 - [ ] [18 - API Get Request](https://youtu.be/U375cmoSIDU)
