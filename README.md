@@ -64,7 +64,17 @@
     > to put them in `$lib`.
 - [x] [17 - API Routes](https://youtu.be/eW8uTGspyV8)
   - export `GET` function in `+server.js`
-- [ ] [18 - API Get Request](https://youtu.be/U375cmoSIDU)
+- [x] [18 - API Get Request](https://youtu.be/U375cmoSIDU)
+
+  - SvelteKit provides a convenience json function.
+
+  ```javascript
+  import { json } from "@sveltejs/kit";
+  export function GET() {
+    return json(myObject);
+  }
+  ```
+
 - [ ] [19 - API Post Request](https://youtu.be/3R4rSyMCiC0)
 - [ ] [20 - Dynamic API Routes](https://youtu.be/Q5b_Gy90G4c)
 - [ ] [21 - API Patch Request](https://youtu.be/S08Fvb0Iv1w)

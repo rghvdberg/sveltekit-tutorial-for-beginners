@@ -1,0 +1,3 @@
+GET http://localhost:5173/api/comments
+
+GET https://reqres.in/api/users?page=5
