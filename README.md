@@ -84,7 +84,8 @@
   }
   ```
 
-- [ ] [20 - Dynamic API Routes](https://youtu.be/Q5b_Gy90G4c)
+- [x] [20 - Dynamic API Routes](https://youtu.be/Q5b_Gy90G4c)
+  - API Routes are wrapped in `[ ]`
 - [ ] [21 - API Patch Request](https://youtu.be/S08Fvb0Iv1w)
 - [ ] [22 - API Delete Request](https://youtu.be/SxcfP0V-LxM)
 - [ ] [23 - Loading Data](https://youtu.be/qHqQpHC0xVY)

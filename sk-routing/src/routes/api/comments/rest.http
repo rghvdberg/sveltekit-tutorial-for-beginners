@@ -6,3 +6,6 @@ Content-Type: application/json
 {
     "text": "New comment"
 }
+
+GET http://localhost:5173/api/comments/1
+
