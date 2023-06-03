@@ -75,7 +75,15 @@
   }
   ```
 
-- [ ] [19 - API Post Request](https://youtu.be/3R4rSyMCiC0)
+- [x] [19 - API Post Request](https://youtu.be/3R4rSyMCiC0)
+
+  ```javascript
+  export async function POST(requestEvent) {
+    // do logic here
+    return json(myObject, { status: 201 });
+  }
+  ```
+
 - [ ] [20 - Dynamic API Routes](https://youtu.be/Q5b_Gy90G4c)
 - [ ] [21 - API Patch Request](https://youtu.be/S08Fvb0Iv1w)
 - [ ] [22 - API Delete Request](https://youtu.be/SxcfP0V-LxM)
