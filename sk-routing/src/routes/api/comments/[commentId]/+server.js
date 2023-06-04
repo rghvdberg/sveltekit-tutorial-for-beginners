@@ -11,3 +11,16 @@ export function GET(requestEvent) {
   );
   return json(comment);
 }
+
+export async function PATCH({ params, request }) {
+  const { commentId } = params;
+  console.log(commentId);
+  const { text } = await request.json();
+  console.log(text);
+  const comment = comments.find(
+    (comment) => comment.id === parseInt(commentId)
+  );
+  console.log(comment);
+  comment.text = text;
+  return json(comment);
+}

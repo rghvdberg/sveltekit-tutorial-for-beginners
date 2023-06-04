@@ -1,5 +1,7 @@
 # [SvelteKit Tutorial for Beginners](https://youtube.com/playlist?list=PLC3y8-rFHvwjifDNQYYWI6i06D7PjF0Ua)
 
+💾 Github - <https://github.com/gopinav/SvelteKit-Tutorials>
+
 - [x] [01 - Introduction](https://youtu.be/UOMLvxfrTCA)
 - [x] [02 - Hello World](<https://youtu.be/Hyss()09pgYzVrhc>)
   - create project `npm create svelte@latest hello-world`
@@ -86,7 +88,7 @@
 
 - [x] [20 - Dynamic API Routes](https://youtu.be/Q5b_Gy90G4c)
   - API Routes are wrapped in `[ ]`
-- [ ] [21 - API Patch Request](https://youtu.be/S08Fvb0Iv1w)
+- [x] [21 - API Patch Request](https://youtu.be/S08Fvb0Iv1w)
 - [ ] [22 - API Delete Request](https://youtu.be/SxcfP0V-LxM)
 - [ ] [23 - Loading Data](https://youtu.be/qHqQpHC0xVY)
 - [ ] [24 - Page Data](https://youtu.be/iBctrIOg-Jw)
