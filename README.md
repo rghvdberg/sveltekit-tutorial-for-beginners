@@ -90,7 +90,18 @@
   - API Routes are wrapped in `[ ]`
 - [x] [21 - API Patch Request](https://youtu.be/S08Fvb0Iv1w)
 - [x] [22 - API Delete Request](https://youtu.be/SxcfP0V-LxM)
-- [ ] [23 - Loading Data](https://youtu.be/qHqQpHC0xVY)
+- [x] [23 - Loading Data](https://youtu.be/qHqQpHC0xVY)
+
+  - create fake api endpoint with [json-server](https://www.npmjs.com/package/json-server)
+    - `npm install json-server`
+  - create `/db.json` file  
+    _I used <https://www.mockaroo.com/>_
+  - edit package.json  
+     `"serve-json": "json-server --watch db.json --port 4000"`
+  - start server: `npm run serve-json`
+    - product list: `http://localhost:4000/products`
+    - product: `http://localhost:4000/products/1`
+
 - [ ] [24 - Page Data](https://youtu.be/iBctrIOg-Jw)
 - [ ] [25 - fetch Function](https://youtu.be/1w2d5HsqwS8)
 - [ ] [26 - Universal Load Function](https://youtu.be/oQL3stj6_H0)

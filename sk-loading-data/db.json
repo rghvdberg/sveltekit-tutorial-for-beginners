@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Cookies Cereal Nut",
+      "price": 7.84,
+      "description": "Description 1"
+    },
+    {
+      "id": 2,
+      "title": "Onions - Pearl",
+      "price": 9.86,
+      "description": "Description 2"
+    },
+    {
+      "id": 3,
+      "title": "Bread - Roll, Canadian Dinner",
+      "price": 9.72,
+      "description": "Description 3"
+    },
+    {
+      "id": 4,
+      "title": "Calypso - Pineapple Passion",
+      "price": 6.42,
+      "description": "Description 4"
+    },
+    {
+      "id": 5,
+      "title": "Wine - Alsace Riesling Reserve",
+      "price": 8.25,
+      "description": "Description 5"
+    },
+    {
+      "id": 6,
+      "title": "Wine - Trimbach Pinot Blanc",
+      "price": 7.13,
+      "description": "Description 6"
+    },
+    {
+      "id": 7,
+      "title": "V8 - Vegetable Cocktail",
+      "price": 8.14,
+      "description": "Description 7"
+    },
+    {
+      "id": 8,
+      "title": "Cut Wakame - Hanawakaba",
+      "price": 0.03,
+      "description": "Description 8"
+    },
+    {
+      "id": 9,
+      "title": "Rice - Jasmine Sented",
+      "price": 9.95,
+      "description": "Description 9"
+    },
+    {
+      "id": 10,
+      "title": "Bread - Calabrese Baguette",
+      "price": 3.51,
+      "description": "Description 10"
+    }
+  ]
+}
