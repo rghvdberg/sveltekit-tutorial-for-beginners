@@ -102,7 +102,8 @@
     - product list: `http://localhost:4000/products`
     - product: `http://localhost:4000/products/1`
 
-- [ ] [24 - Page Data](https://youtu.be/iBctrIOg-Jw)
+- [x] [24 - Page Data](https://youtu.be/iBctrIOg-Jw)
+  - use load function defined in `+page.js`
 - [ ] [25 - fetch Function](https://youtu.be/1w2d5HsqwS8)
 - [ ] [26 - Universal Load Function](https://youtu.be/oQL3stj6_H0)
 - [ ] [27 - Server Load Function](https://youtu.be/mmhUlbvkp-0)
