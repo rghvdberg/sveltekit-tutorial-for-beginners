@@ -16,4 +16,4 @@ Content-Type: application/json
     "text": "Updated comment."
 }
 
-
+DELETE http://localhost:5173/api/comments/3

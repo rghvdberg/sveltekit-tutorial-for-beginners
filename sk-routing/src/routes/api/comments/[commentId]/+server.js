@@ -24,3 +24,11 @@ export async function PATCH({ params, request }) {
   comment.text = text;
   return json(comment);
 }
+
+export async function DELETE({ params }) {
+	const { commentId } = params;
+	const deletedComment = comments.find((comment) => comment.id === parseInt(commentId));
+	const index = comments.findIndex((comment) => comment.id === parseInt(commentId));
+	comments.splice(index, 1);
+	return json(deletedComment);
+}
