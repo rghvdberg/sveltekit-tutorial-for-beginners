@@ -121,7 +121,20 @@
   - useful when loading page data that involves sensitive information which
     should never make it to the browser.
 
-- [ ] [28 - Universal vs Server Load Function](https://youtu.be/jQXeLhR6Qe8)
+- [x] [28 - Universal vs Server Load Function](https://youtu.be/jQXeLhR6Qe8)
+
+  - Page data can be loaded using a universal load function, a server load
+    function or both.
+  - A server load function is useful when you have to work with sensitive
+    information such as credentials or API keys.
+  - A universal load function is useful when you have to return values that are
+    not necessarily serializable, such as a component constructor.
+  - If your page data requires both you can use them to get there.
+  - The data returned from a server load function is available through the data
+    pre-structured argument in the universal load function
+  - Any page data loaded can be accessed using the data prop in the Svelte
+    component file.
+
 - [ ] [29 - Using URL data](https://youtu.be/qMJ8JEZ2A4c)
 - [ ] [30 - Errors and Redirects](https://youtu.be/rf3hHNkoLRk)
 - [ ] [31 - Layout Data](https://youtu.be/OBRbAXPpNIg)
