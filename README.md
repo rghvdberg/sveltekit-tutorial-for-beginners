@@ -105,7 +105,14 @@
 - [x] [24 - Page Data](https://youtu.be/iBctrIOg-Jw)
   - use load function defined in `+page.js`
 - [ ] [25 - fetch Function](https://youtu.be/1w2d5HsqwS8)
+- [x] [25 - fetch Function](https://youtu.be/1w2d5HsqwS8)
+  - Load function with _native_ `window.fetch` makes an HTTP call.
+  - SvelteKit's `fetch` function directly calls the `getHandler` without making
+    an additional request.
+  - you can make relative requests; `fetch("/api/postcodes")`, protocol,domain
+    ,port are all optional
 - [ ] [26 - Universal Load Function](https://youtu.be/oQL3stj6_H0)
+  - A function defined `load` in `+page.js`.
 - [ ] [27 - Server Load Function](https://youtu.be/mmhUlbvkp-0)
 - [ ] [28 - Universal vs Server Load Function](https://youtu.be/jQXeLhR6Qe8)
 - [ ] [29 - Using URL data](https://youtu.be/qMJ8JEZ2A4c)
