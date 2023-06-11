@@ -114,7 +114,13 @@
   - A function defined `load` in `+page.js`.
   - For a page refresh this function runs both on the server and in the browser.
   - For client-side routing it only runs in the browser.
-- [ ] [27 - Server Load Function](https://youtu.be/mmhUlbvkp-0)
+- [x] [27 - Server Load Function](https://youtu.be/mmhUlbvkp-0)
+
+  - defined in a `page.server.js`
+  - runs only on the server.
+  - useful when loading page data that involves sensitive information which
+    should never make it to the browser.
+
 - [ ] [28 - Universal vs Server Load Function](https://youtu.be/jQXeLhR6Qe8)
 - [ ] [29 - Using URL data](https://youtu.be/qMJ8JEZ2A4c)
 - [ ] [30 - Errors and Redirects](https://youtu.be/rf3hHNkoLRk)
