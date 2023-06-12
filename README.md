@@ -135,7 +135,20 @@
   - Any page data loaded can be accessed using the data prop in the Svelte
     component file.
 
-- [ ] [29 - Using URL data](https://youtu.be/qMJ8JEZ2A4c)
+- [x] [29 - Using URL data](https://youtu.be/qMJ8JEZ2A4c)
+
+  - Load Function Inputs
+    - `params`
+    - `url`
+    - `route`
+    - `fetch`
+  - create a `[productID`] dynamic route
+  - define a `serverLoadFunction` for that page
+  - get the route parameter using `params`
+  - make an API call to `json-server`
+  - return page `title` and `product` details
+  - display it in the UI
+
 - [ ] [30 - Errors and Redirects](https://youtu.be/rf3hHNkoLRk)
 - [ ] [31 - Layout Data](https://youtu.be/OBRbAXPpNIg)
 - [ ] [32 - Using Parent Data](https://youtu.be/N3qa9nSS96s)
