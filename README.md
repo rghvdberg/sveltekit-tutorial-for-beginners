@@ -186,7 +186,10 @@
   - return an object that will be available as the `data` prop
   - in +layout.svelte file bind the data to the HTML and apply any
     necessary CSS
-- [ ] [32 - Using Parent Data](https://youtu.be/N3qa9nSS96s)
+- [x] [32 - Using Parent Data](https://youtu.be/N3qa9nSS96s)
+  - add `/routes/+layout.svelte` file
+  - add `load` function in `routes/+layout.js`
+  - in `/routes/products/+layout.js` deconstruct `parent` in the `load` function
 - [ ] [33 - Using Child Data](https://youtu.be/VICP7KihiNs)
 - [ ] [34 - Promise Unwrapping](https://youtu.be/btg0_D9TMos)
 - [ ] [35 - Data Invalidation](https://youtu.be/zydO6wkqXRU)
