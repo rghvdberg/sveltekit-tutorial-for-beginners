@@ -181,7 +181,11 @@
       - `import { redirect } from "@sveltejs/kit";`
       - `throw redirect(307, "/products");`
 
-- [ ] [31 - Layout Data](https://youtu.be/OBRbAXPpNIg)
+- [x] [31 - Layout Data](https://youtu.be/OBRbAXPpNIg)
+  - define `+layout.js` or `+layout.server.js`
+  - return an object that will be available as the `data` prop
+  - in +layout.svelte file bind the data to the HTML and apply any
+    necessary CSS
 - [ ] [32 - Using Parent Data](https://youtu.be/N3qa9nSS96s)
 - [ ] [33 - Using Child Data](https://youtu.be/VICP7KihiNs)
 - [ ] [34 - Promise Unwrapping](https://youtu.be/btg0_D9TMos)
