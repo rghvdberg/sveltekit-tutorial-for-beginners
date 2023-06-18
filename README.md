@@ -149,7 +149,38 @@
   - return page `title` and `product` details
   - display it in the UI
 
-- [ ] [30 - Errors and Redirects](https://youtu.be/rf3hHNkoLRk)
+- [x] [30 - Errors and Redirects](https://youtu.be/rf3hHNkoLRk)
+
+  - **Errors**
+
+    - in `+page.server.js`
+
+      - `import { error } from "@sveltejs/kit";`
+
+      - ```javascript
+        throw error(404, {
+          message: "🙁 Oh no! Looks like product isn't available!",
+          hint: "Please try another product.",
+        });
+        ```
+
+    - in `+error.svelte`
+
+    - ```html
+      <script>
+        import { page } from "$app/stores";
+      </script>
+
+      <h1>{$page.error.message}</h1>
+      <po>{$page.error.hint}</p>
+
+      ```
+
+  - **Redirects**
+    - in `+page.server.js`
+      - `import { redirect } from "@sveltejs/kit";`
+      - `throw redirect(307, "/products");`
+
 - [ ] [31 - Layout Data](https://youtu.be/OBRbAXPpNIg)
 - [ ] [32 - Using Parent Data](https://youtu.be/N3qa9nSS96s)
 - [ ] [33 - Using Child Data](https://youtu.be/VICP7KihiNs)
