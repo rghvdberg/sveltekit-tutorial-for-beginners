@@ -190,7 +190,25 @@
   - add `/routes/+layout.svelte` file
   - add `load` function in `routes/+layout.js`
   - in `/routes/products/+layout.js` deconstruct `parent` in the `load` function
-- [ ] [33 - Using Child Data](https://youtu.be/VICP7KihiNs)
+- [x] [33 - Using Child Data](https://youtu.be/VICP7KihiNs)
+
+  - in <ins style="color:blue">products/+page.js</ins>
+    - `const notification = "End of season sale";`
+  - in <ins style="color:blue">products/productID/+page.server.js</ins>
+    - `const notification = "End of season sale! 50% off"`
+  - in <ins style="color:blue">/layout.svelte</ins>
+    - `import { page } from "$app/stores";`  
+      bind `$page.data.notification` to `<p>`
+  - **Setting the title**
+
+    - in <ins style="color:blue">/layout.svelte</ins>
+
+      - ```svelte
+        <svelte:head>
+          <title> {$page.data.title} || "Codevolution"
+        </svelte:head>
+        ```
+
 - [ ] [34 - Promise Unwrapping](https://youtu.be/btg0_D9TMos)
 - [ ] [35 - Data Invalidation](https://youtu.be/zydO6wkqXRU)
 - [ ] [36 - Link Options](https://youtu.be/Jj2EzWzEUk4)
