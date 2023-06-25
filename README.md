@@ -209,7 +209,27 @@
         </svelte:head>
         ```
 
-- [ ] [34 - Promise Unwrapping](https://youtu.be/btg0_D9TMos)
+- [x] [34 - Promise Unwrapping](https://youtu.be/btg0_D9TMos)
+
+  - instead of
+
+    - ```javascript
+      const foo = await foo.json();
+      const bar = await bar.json();
+      return { foo, bar };
+      ```
+
+  - do
+
+    - ```javascript
+      return {
+        foo: foo.json();
+        bar: bar.json();
+      };
+      ```
+
+  - SvelteKit will resolve the promises in parallel.
+
 - [ ] [35 - Data Invalidation](https://youtu.be/zydO6wkqXRU)
 - [ ] [36 - Link Options](https://youtu.be/Jj2EzWzEUk4)
 - [ ] [37 - Preload Data](https://youtu.be/W5Uo8-zaCeY)
