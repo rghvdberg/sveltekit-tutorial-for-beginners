@@ -2,6 +2,6 @@
   export let product;
 </script>
 
-<h2>{product.title}</h2>
+<a href={`/products/${product.id}`}><h2>{product.title}</h2></a>
 <p>{product.description}</p>
 <hr />

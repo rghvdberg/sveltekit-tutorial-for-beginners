@@ -233,7 +233,7 @@
 - [x] [35 - Data Invalidation](https://youtu.be/zydO6wkqXRU)
   - add `depends` in `+page.js`
   - add `invalidate` / `invalidateAll` in `+page.svelte`
-- [ ] [36 - Link Options](https://youtu.be/Jj2EzWzEUk4)
+- [x] [36 - Link Options](https://youtu.be/Jj2EzWzEUk4)
 - [ ] [37 - Preload Data](https://youtu.be/W5Uo8-zaCeY)
 - [ ] [38 - Preload Code](https://youtu.be/iatqe8JLbuA)
 - [ ] [39 - Reload and No Scroll](https://youtu.be/xyFSbu3hM1g)
