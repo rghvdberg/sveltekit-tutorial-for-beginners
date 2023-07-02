@@ -192,16 +192,16 @@
   - in `/routes/products/+layout.js` deconstruct `parent` in the `load` function
 - [x] [33 - Using Child Data](https://youtu.be/VICP7KihiNs)
 
-  - in <ins style="color:blue">products/+page.js</ins>
+  - in `products/+page.js`
     - `const notification = "End of season sale";`
-  - in <ins style="color:blue">products/productID/+page.server.js</ins>
+  - in `products/productID/+page.server.js`
     - `const notification = "End of season sale! 50% off"`
-  - in <ins style="color:blue">/layout.svelte</ins>
+  - in `/layout.svelte`
     - `import { page } from "$app/stores";`  
       bind `$page.data.notification` to `<p>`
   - **Setting the title**
 
-    - in <ins style="color:blue">/layout.svelte</ins>
+    - in `/layout.svelte`
 
       - ```svelte
         <svelte:head>
@@ -234,7 +234,12 @@
   - add `depends` in `+page.js`
   - add `invalidate` / `invalidateAll` in `+page.svelte`
 - [x] [36 - Link Options](https://youtu.be/Jj2EzWzEUk4)
-- [ ] [37 - Preload Data](https://youtu.be/W5Uo8-zaCeY)
+- [x] [37 - Preload Data](https://youtu.be/W5Uo8-zaCeY)
+
+  - add`<body data-sveltekit-preload-data="hover">` in `src/app.html`
+  - add `data-sveltekit-preload-data="off"` on individual links to fine tune
+    pre-loading
+
 - [ ] [38 - Preload Code](https://youtu.be/iatqe8JLbuA)
 - [ ] [39 - Reload and No Scroll](https://youtu.be/xyFSbu3hM1g)
 - [ ] [40 - Preload Programmatically](https://youtu.be/Wte7GTEryZM)
