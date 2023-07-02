@@ -51,7 +51,7 @@
 - [x] [14 - Layout Groups](https://youtu.be/GMxnG82JHlE)
   - <https://kit.svelte.dev/docs/advanced-routing#advanced-layouts-group>
   - We can group routes with a directory whose name is wrapped in
-    parentheses — these do not affect the URL pathname of the routes inside them.
+    parentheses — these do not affect the URL path name of the routes inside them.
 - [x] [15 - Breaking Out of Layouts](https://youtu.be/QoT_OxlFHUw)
   - <https://kit.svelte.dev/docs/advanced-routingadvanced-layouts-breaking-out-of-layouts>
   - We can reset to a layouts by appending @ followed by the segment name.
@@ -92,7 +92,7 @@
 - [x] [22 - API Delete Request](https://youtu.be/SxcfP0V-LxM)
 - [x] [23 - Loading Data](https://youtu.be/qHqQpHC0xVY)
 
-  - create fake api endpoint with [json-server](https://www.npmjs.com/package/json-server)
+  - create fake API endpoint with [json-server](https://www.npmjs.com/package/json-server)
     - `npm install json-server`
   - create `/db.json` file  
     _I used <https://www.mockaroo.com/>_
@@ -239,8 +239,19 @@
   - add`<body data-sveltekit-preload-data="hover">` in `src/app.html`
   - add `data-sveltekit-preload-data="off"` on individual links to fine tune
     pre-loading
+  - values:
+    - `hover` : preloading will start if the mouse comes to a rest over
+      a link. On mobile, preloading begins on touchstart
+    - `tap`: preloading will start as soon as a touchstart or mousedown
+      event is registered
 
-- [ ] [38 - Preload Code](https://youtu.be/iatqe8JLbuA)
+- [x] [38 - Preload Code](https://youtu.be/iatqe8JLbuA)
+  - `sveltekit-preload-code`
+  - values:
+    - `eager` : links will be preloaded straight away
+    - `viewport` : links will be preloaded once they enter the viewport
+    - `hover` - as above, except that only code is preloaded
+    - `tap` - as above, except that only code is preloaded
 - [ ] [39 - Reload and No Scroll](https://youtu.be/xyFSbu3hM1g)
 - [ ] [40 - Preload Programmatically](https://youtu.be/Wte7GTEryZM)
 - [ ] [41 - Page Options](https://youtu.be/zv4zxqcpe0I)
