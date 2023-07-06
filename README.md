@@ -252,8 +252,25 @@
     - `viewport` : links will be preloaded once they enter the viewport
     - `hover` - as above, except that only code is preloaded
     - `tap` - as above, except that only code is preloaded
-- [ ] [39 - Reload and No Scroll](https://youtu.be/xyFSbu3hM1g)
-- [ ] [40 - Preload Programmatically](https://youtu.be/Wte7GTEryZM)
+- [x] [39 - Reload and No Scroll](https://youtu.be/xyFSbu3hM1g)
+- [x] [40 - Preload Programmatically](https://youtu.be/Wte7GTEryZM)
+
+  - in `routes/+page.svelte`
+
+    - `import { goto, preloadData } from "$app/navigation";`
+
+    ```html
+    <button
+      on:mouseover={async () => {
+        await preloadData("/products");
+      }}
+    >
+      Go to Products
+    </button>
+    ```
+
+  - same can be done for `preloadCode`
+
 - [ ] [41 - Page Options](https://youtu.be/zv4zxqcpe0I)
 - [ ] [42 - SSR and CSR](https://youtu.be/CwneYTVt_UY)
 - [ ] [43 - Pre-rendering Pages](https://youtu.be/FEwUOn_MCL4)
