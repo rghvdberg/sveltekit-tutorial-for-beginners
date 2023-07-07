@@ -271,7 +271,12 @@
 
   - same can be done for `preloadCode`
 
-- [ ] [41 - Page Options](https://youtu.be/zv4zxqcpe0I)
+- [x] [41 - Page Options](https://youtu.be/zv4zxqcpe0I)
+
+  - SSR - server side rendering
+  - CSR - client-side rendering
+  - pre-render - render in advance of sending to the browser (build time)
+
 - [ ] [42 - SSR and CSR](https://youtu.be/CwneYTVt_UY)
 - [ ] [43 - Pre-rendering Pages](https://youtu.be/FEwUOn_MCL4)
 - [ ] [44 - Pre-rendering API Routes](https://youtu.be/nm0arhFBz9Y)
