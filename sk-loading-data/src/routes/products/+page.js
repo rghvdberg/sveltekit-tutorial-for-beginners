@@ -10,3 +10,6 @@ export const load = (loadEvent) => {
     notification,
   };
 };
+
+export const ssr = false;
+export const csr = false;

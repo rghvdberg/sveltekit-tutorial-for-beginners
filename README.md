@@ -277,7 +277,15 @@
   - CSR - client-side rendering
   - pre-render - render in advance of sending to the browser (build time)
 
-- [ ] [42 - SSR and CSR](https://youtu.be/CwneYTVt_UY)
+- [x] [42 - SSR and CSR](https://youtu.be/CwneYTVt_UY)
+
+  - in `+page.js` or `+page.server.js`
+
+  - ```javascript
+    export const ssr = true / false;
+    export const csr = true / false;
+    ```
+
 - [ ] [43 - Pre-rendering Pages](https://youtu.be/FEwUOn_MCL4)
 - [ ] [44 - Pre-rendering API Routes](https://youtu.be/nm0arhFBz9Y)
 - [ ] [45 - Pre-rendering Dynamic Routes](https://youtu.be/BCqlAbxFlHc)
